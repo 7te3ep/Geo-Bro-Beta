@@ -1,0 +1,19 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+}
+
+#test {
+    position: absolute;
+    background-color: blue;
+    width: 100vw;
+    height: 200px;
+    bottom: 0px;
+}
