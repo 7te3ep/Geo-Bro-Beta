@@ -6,10 +6,15 @@
 }
 
 body {
+    display: block;
+    position: relative;
     height: 100vh;
     width: 100vw;
+    min-height: 100vh;
+    min-width: 100vw;
+    max-height: 100vh;
+    max-width: 100vw;
     background-color: #45C5D7;
-    overflow: hidden;
 }
 
 
@@ -37,4 +42,16 @@ body {
 	#mobileOnly {
         display: none;
     }
+}
+
+#logo {
+    z-index: 500;
+    position: fixed;
+    left: 10px;
+    top: 15px;
+    width: 90px;
+}
+
+html,body {
+    overflow: hidden;
 }

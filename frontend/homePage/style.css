@@ -4,6 +4,10 @@ body {
     align-items: center;
 }
 
+#logo {
+    z-index: 0;
+}
+
 #bottomArea {
     z-index: 1;
     position: fixed;
@@ -75,13 +79,6 @@ body {
     z-index: 0;
     position: fixed;
     top: 50px;
-}
-
-#logo {
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100px;
 }
 
 .fa-house{

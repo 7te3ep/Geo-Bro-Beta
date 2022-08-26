@@ -1,7 +1,7 @@
 // define a function that sets min-height of my-element to window.innerHeight:
 
 const setHeight = () => {
-    document.getElementById("body").style.minHeight = window.innerHeight + "px"
+    document.getElementById("body").style.minHeight = window.screen.height + "px"
 };
 
 // define mobile screen size:
