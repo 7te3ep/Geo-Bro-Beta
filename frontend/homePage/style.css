@@ -6,7 +6,7 @@ body {
 
 #bottomArea {
     z-index: 1;
-    position: absolute;
+    position: fixed;
     display: flex;
     bottom: 10%;
     width: 100vw;
@@ -49,6 +49,15 @@ body {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.350);
 }
 
+#main > #startBtn:active {
+    background-color: #45C5D7;
+    transition: transform 0.2s ease,background-color 0.2s ease;
+    transform: translate(4px,4px);
+}
+
+
+
+
 #main > h3 {
     font-weight: bolder;
     text-align: center;
@@ -57,45 +66,24 @@ body {
 }
 
 #vector {
-    position: absolute;
-    bottom: -45px;
+    position: fixed;
+    bottom: 0px;
     left: 0px;
 }
 
 #illustration {
     z-index: 0;
-    position: absolute;
+    position: fixed;
     top: 50px;
 }
 
 #logo {
-    position: absolute;
+    position: fixed;
     left: 0px;
     top: 0px;
     width: 100px;
 }
 
-#profile {
-    border-radius: 10px;
-    position: absolute;
-    top: 12px;
-    right: 5px;
-    height: 45px;
-    width: 116px;
-    background-color: #2D2A32;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-#profile > #picture {
-    height: 29px;
-    width: 29px;
-    background-color: #D9D9D9;
-    border-radius: 100%;
-}
-
-#profile > #name {
-    color: #D9D9D9;
-    font-size: 12px;
+.fa-house{
+    color: #45C5D7;
 }

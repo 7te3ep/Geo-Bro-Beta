@@ -3,7 +3,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     width: 100vw;
     height: 10%;
@@ -19,6 +19,6 @@ nav {
 }
 
 i {
-    color:#45C5D7;
+    color:#D9D9D9;
     font-size: 30px;
 }
