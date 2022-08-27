@@ -1,0 +1,54 @@
+
+
+@keyframes slideInFromRight2 {
+    0% {
+        right: -100vw;
+    }
+    100% {
+        right: -10vw;
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        right: -50vw;
+    }
+    100% {
+        right: 5px;
+    }
+}
+
+@keyframes slideInFromTop {
+    0% {
+        top: -50vh;
+    }
+    100% {
+        top: -125px;
+    }
+}
+
+
+
+#topArea {
+        animation-duration: 0.8s; /* the duration of the animation */
+        animation-timing-function: ease-out; /* how the animation will behave */
+        animation-delay: 0s; /* how long to delay the animation from starting */
+        animation-iteration-count: 1; /* how many times the animation will play */
+        animation-name: slideInFromTop; /* the name of the animation we defined above */
+}
+
+#profile {
+    animation-duration: 1s; /* the duration of the animation */
+    animation-timing-function: ease-out; /* how the animation will behave */
+    animation-delay: 0s; /* how long to delay the animation from starting */
+    animation-iteration-count: 1; /* how many times the animation will play */
+    animation-name: slideInFromRight; /* the name of the animation we defined above */
+}
+
+#vector {
+    animation-duration: 1s; /* the duration of the animation */
+    animation-timing-function: ease-out; /* how the animation will behave */
+    animation-delay: 0s; /* how long to delay the animation from starting */
+    animation-iteration-count: 1; /* how many times the animation will play */
+    animation-name: slideInFromRight2; /* the name of the animation we defined above */
+}

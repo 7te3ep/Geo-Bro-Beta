@@ -1,0 +1,132 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#topArea {
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -125px;
+    min-width: 900px;
+    height: 250px;
+    border-radius: 100%;
+    background-color: #D9D9D9;
+}
+
+#topArea > h1 {
+    position: absolute;
+    bottom: 20px;
+    font-weight: bolder;
+    font-size: 25px;
+    color: #45C5D7;
+}
+
+#vector {
+    z-index: 0;
+    position: absolute;
+    top: 0px;
+    right: -10vw;
+    height: 100vh;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
+
+#mapGallery {
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 115px;
+    width: 75vw;
+    height: 100vh;
+}
+
+#mapGallery > ul {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    padding-bottom: 200px;
+    height: fit-content;
+    overflow-y: scroll;
+}
+
+#mapGallery > ul > li {
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.mapCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(217, 217, 217,0.9);
+    z-index: 1;
+    height: 140px;
+    width: 120px;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0,0.5);
+    margin: 0px 5px;
+}
+
+::-webkit-scrollbar {
+    width: 0px; 
+    }
+
+.mapCard > .mapCardImg {
+    align-items: center;
+    width: 85px;
+    height: 75px;
+    background-color: #45C5D7;
+    border-radius: 10px;
+    background-image: url(assets/cardIllustration.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+.mapCardTitle {
+    color: #2D2A32;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.mapCard > .mapCardPlayBtn {
+    border: none;
+    inset: none;
+    width: 75px;
+    height: 25px;
+    border-radius: 10px;
+    background-color:#2D2A32 ;
+    color: #D9D9D9;
+    font-weight: bolder;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0,0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fa-clipboard-question{
+    color: #45C5D7;
+}
+
