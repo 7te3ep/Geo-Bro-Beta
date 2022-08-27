@@ -48,9 +48,7 @@ body {
     position: absolute;
     top: 50px;
     width: 100%;
-    padding-bottom: 200px;
-    height: fit-content;
-    overflow-y: scroll;
+    height: 11000px;
 }
 
 #mapGallery > ul > li {
