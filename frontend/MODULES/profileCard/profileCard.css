@@ -5,7 +5,7 @@
     top: 12px;
     right: 5px;
     height: 45px;
-    width: 116px;
+    width: fit-content;
     background-color: #2D2A32;
     display: flex;
     justify-content: space-evenly;
@@ -20,6 +20,7 @@
 }
 
 #profile > #picture {
+    margin: 10px;
     height: 29px;
     width: 29px;
     background-color: #D9D9D9;
@@ -27,6 +28,7 @@
 }
 
 #profile > #name {
+    margin: 10px 10px 10px 0px;
     color: #D9D9D9;
     font-size: 12px;
 }
