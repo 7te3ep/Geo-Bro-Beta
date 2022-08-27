@@ -1,10 +1,11 @@
 
-@keyframes slideInFromBottom {
+
+@keyframes slideInFromLeft {
     0% {
-        bottom: -100vh;
+        left: -100vw;
     }
     100% {
-        bottom: 10%;
+        left: -10vw;
     }
 }
 
@@ -22,22 +23,18 @@
         top: -50vh;
     }
     100% {
-        top: 50px;
+        top: -125px;
     }
 }
 
 
 
-#bottomArea{
-    animation-duration: 1.2s; /* the duration of the animation */
-    animation-timing-function: ease-out; /* how the animation will behave */
-    animation-delay: 0s; /* how long to delay the animation from starting */
-    animation-iteration-count: 1; /* how many times the animation will play */
-    animation-name: slideInFromBottom; /* the name of the animation we defined above */
-}
-
-#vector{
-    animation: none;
+#topArea {
+        animation-duration: 0.8s; /* the duration of the animation */
+        animation-timing-function: ease-out; /* how the animation will behave */
+        animation-delay: 0s; /* how long to delay the animation from starting */
+        animation-iteration-count: 1; /* how many times the animation will play */
+        animation-name: slideInFromTop; /* the name of the animation we defined above */
 }
 
 #profile {
@@ -48,10 +45,10 @@
     animation-name: slideInFromRight; /* the name of the animation we defined above */
 }
 
-#illustration {
-    animation-duration: 0.8s; /* the duration of the animation */
+#vector {
+    animation-duration: 1s; /* the duration of the animation */
     animation-timing-function: ease-out; /* how the animation will behave */
     animation-delay: 0s; /* how long to delay the animation from starting */
     animation-iteration-count: 1; /* how many times the animation will play */
-    animation-name: slideInFromTop; /* the name of the animation we defined above */
+    animation-name: slideInFromLeft; /* the name of the animation we defined above */
 }
