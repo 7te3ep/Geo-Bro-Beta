@@ -19,25 +19,25 @@
 
 <body id="body">
 
-    <a href="../loginPage/index.html">
-    <div id="profile">
-        <div id="picture"></div>
-        <h4 id="name">Invité</h4>
-    </div>
-    </a>
+    <!--MAIN-->   
 
-    <!--MAIN-->
+    <a id="returnBtn" href="../LoginChoice/index.html"><i class="fa-solid fa-xmark"></i></a>
 
-    <section id="bottomArea">
-        <div id="main">
-            <h3 id="slogan">The best slogan ever writed in Html !</h3>
-            <a href="../LoginChoice/index.html"><button id="startBtn">Commencer</button></a>
-        </div>
-        <img id="vector" src="assets/vector.png" alt="">
-    </section>
+    <form action="POST">
+        <h1 id="formTitle">Se connecter</h1> 
 
-    <img id="illustration" src="assets/logo.png" alt="">
+        <label for="username">Nom d’Utilisateur </label>
+        <input type="text" id="username">
+            
+        <label for="password">Mot De Passe</label>
+        <input type="password" id="password">
 
+        <button id="createBtn">Connexion</button>
+        <a href="../registerPage/index.html"><p id="redirectLogin">Je n'ai pas de compte</p></a>
+    </form>
+
+
+    <img id="vector" src="./assets/vector.png" alt="">
     <!--MAIN-->
 
     <img id="logo" src="../MODULES/base/Logo.png" alt="">

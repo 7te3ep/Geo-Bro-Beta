@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    z-index: 0;
+}
+
+form {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    border-radius: 20px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(217, 217, 217,0.3);
+    box-shadow: 3px 3px 3px 3px rgb(0, 0, 0,0.25);
+    height: fit-content;
+    padding: 0px 30px;
+    min-width: 80vw;
+}
+
+form > #formTitle {
+    font-family:sans-serif;
+    padding: 20px 0px;
+    text-shadow: 0px 0px 0px 10px #2D2A32;
+}
+
+form > label {
+    font-family:sans-serif;
+    color: #D9D9D9;
+    font-weight: bolder;
+    padding-bottom: 3px;
+}
+
+form > input {
+    padding: 15px 15px;
+    font-size: 15px;
+    width: 70%;
+    inset: none;
+    border: none;
+    height: 25px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color: rgb(217, 217, 217,07);
+    box-shadow: 2px 2px 2px 1px rgb(0, 0, 0,0.15);
+}
+
+#createBtn {
+    font-weight: bolder;
+    color: #D9D9D9;
+    background-color: #2D2A32;
+    font-size: 15px;
+    width: 100px;
+    padding: 9px 0px;
+    inset: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 1px rgb(0, 0, 0,0.35);
+}
+
+#redirectLogin {
+    padding: 15px 5px;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+#vector {
+    z-index: -10;
+    position: absolute;
+    right: 0px;
+    bottom: 8%;
+    height: 80%;
+}
+
+#returnBtn {
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    z-index: 500;
+    position: fixed;
+    right: 20px;
+    top: 15px;
+    background-color: rgb(217, 217, 217,0.8);
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+.fa-xmark{
+    color: #2D2A32;
+}
+
+a {
+    color: #2D2A32;
+    text-decoration: none;
+}

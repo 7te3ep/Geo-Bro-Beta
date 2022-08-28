@@ -1,0 +1,61 @@
+
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translate(100vw,0px);
+    }
+    100% {
+        transform: translate(0vw,0px);
+    }
+}
+
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translate(-100vw,0px);
+    }
+    100% {
+        transform: translate(0vw,0px);
+    }
+}
+
+@keyframes slideInFromBottom{
+    0% {
+        transform: translate(0px,50vh);
+    }
+    100% {
+        transform: translate(0px,0vh);
+    }
+}
+
+#mainIllu{
+    animation-duration: 1.2s; /* the duration of the animation */
+    animation-timing-function: ease-out; /* how the animation will behave */
+    animation-delay: 0s; /* how long to delay the animation from starting */
+    animation-iteration-count: 1; /* how many times the animation will play */
+    animation-name: slideInFromRight; /* the name of the animation we defined above */
+}
+
+h1 {
+    animation-duration: 0.8s; /* the duration of the animation */
+    animation-timing-function: ease-out; /* how the animation will behave */
+    animation-delay: 0s; /* how long to delay the animation from starting */
+    animation-iteration-count: 1; /* how many times the animation will play */
+    animation-name: slideInFromLeft; /* the name of the animation we defined above */
+}
+
+p {
+    animation-duration: 1s; /* the duration of the animation */
+    animation-timing-function: ease-in; /* how the animation will behave */
+    animation-delay: 0s; /* how long to delay the animation from starting */
+    animation-iteration-count: 1; /* how many times the animation will play */
+    animation-name: slideInFromLeft; /* the name of the animation we defined above */
+}
+
+#choiceBtn {
+    animation-duration: 0.8s; /* the duration of the animation */
+    animation-timing-function: ease-in; /* how the animation will behave */
+    animation-delay: 0s; /* how long to delay the animation from starting */
+    animation-iteration-count: 1; /* how many times the animation will play */
+    animation-name: slideInFromBottom; /* the name of the animation we defined above */
+}

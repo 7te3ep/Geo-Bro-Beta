@@ -22,3 +22,30 @@ i {
     color:#D9D9D9;
     font-size: 30px;
 }
+
+.navIcon:active {
+    transition: all 0.1s ease;
+    transform: translate(0px,-20px);
+    
+}
+
+
+
+@keyframes slideInFromBottomNav {
+    0% {
+        bottom: -50vh;
+    }
+    100% {
+        bottom: 0px;
+    }
+}
+
+
+
+nav {
+        animation-duration: 0.5s; /* the duration of the animation */
+        animation-timing-function: ease-out; /* how the animation will behave */
+        animation-delay: 0s; /* how long to delay the animation from starting */
+        animation-iteration-count: 1; /* how many times the animation will play */
+        animation-name: slideInFromBottomNav; /* the name of the animation we defined above */
+}
