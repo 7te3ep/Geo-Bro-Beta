@@ -5,12 +5,13 @@ body {
 }
 
 main {
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content:space-evenly;
     align-items: center;
+    bottom: 10%;
     height: 80vh;
-    padding-bottom: 15%;
 }
 
 #logo {
