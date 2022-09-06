@@ -2,12 +2,98 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    max-height: 100vh;
+
 }
 
-body {
+body{
+    position: relative;
+    height: 100vh;
     height: 100vh;
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+html,body {
+    height: 100%;
+    background: #CCC;
+    font-family: Arial;
+  }
+  
+  svg, .panzoom {
+    display:block;
+    width:100%;
+    height: 100%;
+  }
+  
+  .panzoom {
+    cursor: all-scroll;
+  }
+  
+              .land
+              {
+          cursor:pointer;
+                  fill: #219df1;
+                  fill-opacity: 1;
+                  stroke:white;
+                  stroke-opacity: 1;
+                  stroke-width:0.5;
+              }
+        
+        .land:hover {
+          opacity:0.8;
+          fill: #283b4a;
+        }
+  
+  
+  
+  .white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width:auto;
+    max-width: 500px;
+    margin: 20px auto;
+    font-family:Arial;
+  }
+  
+  #RU {
+    fill:#2172F1;
+  }
+  
+  
+  /* overlay at start */
+  .mfp-fade.mfp-bg {
+    opacity: 0;
+  
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+  }
+  /* overlay animate in */
+  .mfp-fade.mfp-bg.mfp-ready {
+    opacity: 0.8;
+  }
+  /* overlay animate out */
+  .mfp-fade.mfp-bg.mfp-removing {
+    opacity: 0;
+  }
+  
+  /* content at start */
+  .mfp-fade.mfp-wrap .mfp-content {
+    opacity: 0;
+  
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+  }
+  /* content animate it */
+  .mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+    opacity: 1;
+  }
+  /* content animate out */
+  .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+    opacity: 0;
+  }

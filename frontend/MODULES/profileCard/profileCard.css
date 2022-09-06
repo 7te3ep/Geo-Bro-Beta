@@ -11,6 +11,7 @@
     justify-content: space-evenly;
     align-items: center;
     max-width: 150px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.172);
 }
 
 #profile:active {
